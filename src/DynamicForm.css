@@ -1,0 +1,87 @@
+/* DynamicForm.css */
+
+.container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  input,
+  select,
+  textarea {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .is-invalid {
+    border-color: #e3342f;
+  }
+  
+  .invalid-feedback {
+    font-size: 0.875rem;
+    color: #e3342f;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary h2 {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+  
+  .summary p {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .form-check-inline {
+    margin-right: 15px;
+  }
+  
+  .form-check-input {
+    margin-top: 0.3em;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+  
